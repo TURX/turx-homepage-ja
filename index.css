@@ -65,11 +65,11 @@ body.loaded #buttons {
 	color: darkblue;
 }
 
-#btn-blog {
+#btn-blog, #btn-blog-portrait {
 	border-color: cyan;
 }
 
-#btn-blog:hover {
+#btn-blog:hover, #btn-blog-portrait:hover {
 	color: darkcyan;
 }
 
@@ -81,10 +81,36 @@ body.loaded #buttons {
 	color: gray;
 }
 
-#btn-resume {
+#btn-resume, #btn-resume-portrait {
 	border-color: orange;
 }
 
-#btn-resume:hover {
+#btn-resume:hover, #btn-resume-portrait:hover {
 	color: darkorange;
+}
+
+.portrait-only {
+	display: none;
+}
+
+@media (orientation: portrait) {
+	#buttons {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 0.5em;
+		margin: 2em;
+	}
+
+	#buttons .btn {
+		text-align: left;
+	}
+
+	.landscape-only {
+		display: none;
+	}
+
+	.portrait-only {
+		display: block;
+	}
 }
