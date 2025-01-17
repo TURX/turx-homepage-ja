@@ -21,7 +21,7 @@ html:
   <img src="profile.jpg" alt="伊豆半島 だるま山高原展望台 にて">
 </div>
 
-アメリカ ウィスコンシン大学マディソン校（University of Wisconsin--Madison） 四年生
+アメリカ ウィスコンシン大学マディソン校（University of Wisconsin--Madison） B4
 情報科学（Honors）・数学（Honors）・データ科学・統計学・日本語専攻
 ruixuan@cs.wisc.edu
 
@@ -171,26 +171,26 @@ Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fa
 
 **ウィスコンシン大学マディソン校**
 
-- [COMP SCI 540（人工知能）](https://pages.cs.wisc.edu/~jphanna/teaching/2023spring_cs540/teaching_team.html)のピアメンター（学部生TA）：オフィスアワーで機械学習、数学、ゲーム、探索について学生の質問に対応（2022年9月 --- 2024年5月）
+- **[COMP SCI 577 Honors（アルゴリズム）](https://pages.cs.wisc.edu/~dieter/Courses/index.html) 採点者**：Dieter van Melkebeek教授の授業で、分割統治法、動的計画法、貪欲法、ネットワークフロー、計算困難性などについて課題採点（2025年1月 --- 現在）
+- **[COMP SCI 540（人工知能）](https://pages.cs.wisc.edu/~jphanna/teaching/2023spring_cs540/teaching_team.html) ピアメンター（学部生TA）**：オフィスアワーで機械学習、数学、ゲーム、探索について学生の質問に対応（2022年9月 --- 2024年5月）
   - 情報科学科への貢献に対して[Golden Bricks Award（2023）](https://www.cs.wisc.edu/2023-cs-department-awards-and-thank-yous/#GOLDEN%20BRICK%20AWARDS)を受賞
-- 学生寮の微積分チューター：多変数微積分、線形代数、解析学入門などの数学コースを履修する学生に個別およびグループチュータリングを提供（2022年9月 --- 現在）
+- **学生寮 微積分チューター**：多変数微積分、線形代数、解析学などの数学コースを履修する学生に個別およびグループチュータリングを提供（2022年9月 --- 現在）
 
 
 ## プロジェクト
 
 **[KDE Connect](https://kdeconnect.kde.org/)** ([Apple Continuity](https://www.apple.com/macos/continuity/)のような体験) (2018年11月 --- 現在)
 
-- 最新の安定版をダウンロード: [[App Store](https://apps.apple.com/us/app/kde-connect/id1580245991)] [[TestFlight](https://testflight.apple.com/join/vxCluwBF)]
-- データ: App Store通常ダウンロード 284K件、アクティブテスター 10K人、インプレッション 100万件（2024年4月時点）
-- [macOS版](https://github.com/TURX/kdeconnect-mac)のリード開発者（新UI、デバイス一覧、セキュア接続、プラグインの移植; [GSoC'22 提案書](https://direct.turx.asia/gsoc-proposal-220418.pdf)）
-- [iOS版](https://github.com/KDE/kdeconnect-ios)の開発者・レビュアー（Aboutビュー、位置情報を用いたバックグラウンド実行、信頼できるネットワーク）
+- 最新の安定版をダウンロード：[[App Store](https://apps.apple.com/us/app/kde-connect/id1580245991)] [[TestFlight](https://testflight.apple.com/join/vxCluwBF)]
+- データ：通常App Storeダウンロード 40.6万件、アクティブテスター 1万人、インプレッション 168万回（2025年1月時点）
+- Appleプラットフォーム（iOSとmacOS）のリードデベロッパーおよび保守者  [[GitHub Repo](https://github.com/KDE/kdeconnect-ios)] [[GitLab Repo](https://invent.kde.org/network/kdeconnect-ios)]
 - リリースとトラブルシューティングのためのApp Store Connectメンテナー
-- AndroidとLinux版への貢献（Android SMSでの新規会話）
+- AndroidとLinux版への貢献
 
 
 ## 所属学会
 
-- Phi Beta Kappa（2024年---）
+- Phi Beta Kappa（2024年 ---）
 - 計算言語学会（Association for Computational Linguistics）（2024年）
 
 ## 受賞歴
