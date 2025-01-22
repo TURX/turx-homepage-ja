@@ -51,7 +51,29 @@ ruixuan@cs.wisc.edu
 
 ### 査読あり
 
-1. **DocAsRef: An Empirical Study on Repurposing Reference-based Summary Quality Metrics as Reference-free Metrics**
+1. **Is Semantic Chunking Worth the Computational Cost?**
+Renyi Qu, **Ruixuan Tu**, Forrest Sheng Bao
+*Findings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#rag-abstract" aria-expanded="false" aria-controls="rag-abstract">Abstract</button> [[arXiv](https://arxiv.org/abs/2410.13070)] [[PDF](https://arxiv.org/pdf/2410.13070)]
+
+  <div class="collapse" id="rag-abstract">
+
+  &emsp; Recent advances in Retrieval-Augmented Generation (RAG) systems have popularized **semantic chunking**, which aims to improve retrieval performance by dividing documents into semantically coherent segments. Despite its growing adoption, the actual benefits over simpler **fixed-size chunking**, where documents are split into consecutive, fixed-size segments, remain unclear. This study systematically evaluates the effectiveness of semantic chunking using three common retrieval-related tasks: document retrieval, evidence retrieval, and retrieval-based answer generation. The results show that the computational costs associated with semantic chunking are not justified by consistent performance gains. These findings challenge the previous assumptions about semantic chunking and highlight the need for more efficient chunking strategies in RAG systems.
+
+  </div>
+
+2. **FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs**
+Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fan, Manveer Singh Tamber, Suleman Kazi, Vivek Sourabh, Mike Qi, **Ruixuan Tu**, Chenyu Xu, Matthew Gonzales, Ofer Mendelevitch, Amin Ahmad
+*Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#faithbench-abstract" aria-expanded="false" aria-controls="faithbench-abstract">Abstract</button> [[arXiv](https://arxiv.org/abs/2410.13210)] [[PDF](https://arxiv.org/pdf/2410.13210)] [[GitHub Repo](https://github.com/vectara/FaithBench)]
+
+  <div class="collapse" id="faithbench-abstract">
+
+  &emsp; Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. "Challenging" here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50\% accuracies on FaithBench, indicating lots of room for future improvement.
+
+  </div>
+
+3. **DocAsRef: An Empirical Study on Repurposing Reference-based Summary Quality Metrics as Reference-free Metrics**
 Forrest Sheng Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youbiao He, and Cen Chen
 *Findings of the Association for Computational Linguistics: EMNLP 2023*
 (Presented the paper and the poster orally at 4th NewSumm Workshop in person as co-first-author)
@@ -64,7 +86,7 @@ Forrest Sheng Bao\*, **Ruixuan Tu**\*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu
 
   </div>
 
-2. **Funix - The laziest way to build GUI apps in Python**
+4. **Funix - The laziest way to build GUI apps in Python**
 Forrest Sheng Bao, Mike Qi, **Ruixuan Tu**, Erana Wan
 *Proceedings of the Python in Science Conference 2024*
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#funix-abstract" aria-expanded="false" aria-controls="funix-abstract">Abstract</button> [[SciPy Proceedings](https://proceedings.scipy.org/articles/JFYN3740)] [[PDF](https://pub.curvenote.com/0192d974-5e0f-7a5b-959a-07c7835a1d2f/public/full_text-63ece1ce5a4ce92019ecb895571b14f7.pdf)] [[GitHub Repo](https://github.com/TexteaInc/funix)]
@@ -77,7 +99,7 @@ Forrest Sheng Bao, Mike Qi, **Ruixuan Tu**, Erana Wan
 
   </div>
 
-3. **A review in the core technologies of 5G: device-to-device communication, multi-access edge computing and network function virtualization**
+5. **A review in the core technologies of 5G: device-to-device communication, multi-access edge computing and network function virtualization**
 **Ruixuan Tu**\*, Ruxun Xiang\*, Yang Xu, Yihan Mei
 *International Journal of Communications, Network and System Sciences, 2019*
 <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#5g-abstract" aria-expanded="false" aria-controls="5g-abstract">Abstract</button> [[SCIRP](https://www.scirp.org/journal/paperinformation?paperid=95497)] [[PDF](https://www.scirp.org/pdf/IJCNS_2019092914040589.pdf)]
@@ -90,27 +112,7 @@ Forrest Sheng Bao, Mike Qi, **Ruixuan Tu**, Erana Wan
 
 ### プレプリント
 
-1. **Is Semantic Chunking Worth the Computational Cost?**
-Renyi Qu, **Ruixuan Tu**, Forrest Sheng Bao
-*arXiv:2410.13070*
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#rag-abstract" aria-expanded="false" aria-controls="rag-abstract">Abstract</button> [[arXiv](https://arxiv.org/abs/2410.13070)] [[PDF](https://arxiv.org/pdf/2410.13070)]
-
-  <div class="collapse" id="rag-abstract">
-
-  &emsp; Recent advances in Retrieval-Augmented Generation (RAG) systems have popularized **semantic chunking**, which aims to improve retrieval performance by dividing documents into semantically coherent segments. Despite its growing adoption, the actual benefits over simpler **fixed-size chunking**, where documents are split into consecutive, fixed-size segments, remain unclear. This study systematically evaluates the effectiveness of semantic chunking using three common retrieval-related tasks: document retrieval, evidence retrieval, and retrieval-based answer generation. The results show that the computational costs associated with semantic chunking are not justified by consistent performance gains. These findings challenge the previous assumptions about semantic chunking and highlight the need for more efficient chunking strategies in RAG systems.
-
-  </div>
-
-2. **FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs**
-Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fan, Manveer Singh Tamber, Suleman Kazi, Vivek Sourabh, Mike Qi, **Ruixuan Tu**, Chenyu Xu, Matthew Gonzales, Ofer Mendelevitch, Amin Ahmad
-*arXiv:2410.13210*
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#faithbench-abstract" aria-expanded="false" aria-controls="faithbench-abstract">Abstract</button> [[arXiv](https://arxiv.org/abs/2410.13210)] [[PDF](https://arxiv.org/pdf/2410.13210)] [[GitHub Repo](https://github.com/vectara/FaithBench)]
-
-  <div class="collapse" id="faithbench-abstract">
-
-  &emsp; Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. "Challenging" here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50\% accuracies on FaithBench, indicating lots of room for future improvement.
-
-  </div>
+現時点ではなし
 
 ### 授業のプロジェクト
 

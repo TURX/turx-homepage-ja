@@ -58,6 +58,24 @@
 <h2 id="論文">論文 </h2>
 <h3 id="査読あり">査読あり </h3>
 <ol>
+<li><strong>Is Semantic Chunking Worth the Computational Cost?</strong><br>
+Renyi Qu, <strong>Ruixuan Tu</strong>, Forrest Sheng Bao<br>
+<em>Findings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</em><br>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#rag-abstract" aria-expanded="false" aria-controls="rag-abstract">Abstract</button> [<a href="https://arxiv.org/abs/2410.13070">arXiv</a>] [<a href="https://arxiv.org/pdf/2410.13070">PDF</a>]</li>
+</ol>
+  <div class="collapse" id="rag-abstract">
+<p>  Recent advances in Retrieval-Augmented Generation (RAG) systems have popularized <strong>semantic chunking</strong>, which aims to improve retrieval performance by dividing documents into semantically coherent segments. Despite its growing adoption, the actual benefits over simpler <strong>fixed-size chunking</strong>, where documents are split into consecutive, fixed-size segments, remain unclear. This study systematically evaluates the effectiveness of semantic chunking using three common retrieval-related tasks: document retrieval, evidence retrieval, and retrieval-based answer generation. The results show that the computational costs associated with semantic chunking are not justified by consistent performance gains. These findings challenge the previous assumptions about semantic chunking and highlight the need for more efficient chunking strategies in RAG systems.</p>
+  </div>
+<ol start="2">
+<li><strong>FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs</strong><br>
+Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fan, Manveer Singh Tamber, Suleman Kazi, Vivek Sourabh, Mike Qi, <strong>Ruixuan Tu</strong>, Chenyu Xu, Matthew Gonzales, Ofer Mendelevitch, Amin Ahmad<br>
+<em>Proceedings of the 2025 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</em><br>
+<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#faithbench-abstract" aria-expanded="false" aria-controls="faithbench-abstract">Abstract</button> [<a href="https://arxiv.org/abs/2410.13210">arXiv</a>] [<a href="https://arxiv.org/pdf/2410.13210">PDF</a>] [<a href="https://github.com/vectara/FaithBench">GitHub Repo</a>]</li>
+</ol>
+  <div class="collapse" id="faithbench-abstract">
+<p>  Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. “Challenging” here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50% accuracies on FaithBench, indicating lots of room for future improvement.</p>
+  </div>
+<ol start="3">
 <li><strong>DocAsRef: An Empirical Study on Repurposing Reference-based Summary Quality Metrics as Reference-free Metrics</strong><br>
 Forrest Sheng Bao*, <strong>Ruixuan Tu</strong>*, Ge Luo, Yinfei Yang, Hebi Li, Minghui Qiu, Youbiao He, and Cen Chen<br>
 <em>Findings of the Association for Computational Linguistics: EMNLP 2023</em><br>
@@ -72,7 +90,7 @@ Here is a description of the content: Video
   <div class="collapse" id="docasref-abstract">
 <p>  Automated summary quality assessment falls into two categories: reference-based and reference-free. Reference-based metrics, historically deemed more accurate due to the additional information provided by human-written references, are limited by their reliance on human input. In this paper, we hypothesize that the comparison methodologies used by some reference-based metrics to evaluate a system summary against its corresponding reference can be effectively adapted to assess it against its source document, thereby transforming these metrics into reference-free ones. Experimental results support this hypothesis. After being repurposed reference-freely, the zero-shot BERTScore using the pretrained DeBERTa-large-MNLI model of &lt;0.5B parameters consistently outperforms its original reference-based version across various aspects on the SummEval and Newsroom datasets. It also excels in comparison to most existing reference-free metrics and closely competes with zero-shot summary evaluators based on GPT-3.5.</p>
   </div>
-<ol start="2">
+<ol start="4">
 <li><strong>Funix - The laziest way to build GUI apps in Python</strong><br>
 Forrest Sheng Bao, Mike Qi, <strong>Ruixuan Tu</strong>, Erana Wan<br>
 <em>Proceedings of the Python in Science Conference 2024</em><br>
@@ -82,7 +100,7 @@ Forrest Sheng Bao, Mike Qi, <strong>Ruixuan Tu</strong>, Erana Wan<br>
 <p>  The rise of machine learning (ML) and artificial intelligence (AI), especially the generative AI (GenAI), has increased the need for wrapping models or algorithms into GUI apps. For example, a large language model (LLM) can be accessed through a string-to-string GUI app with a textbox as the primary input. Most of existing solutions require developers to manually create widgets and link them to arguments/returns of a function individually. This low-level process is laborious and usually intrusive. Funix automatically selects widgets based on the types of the arguments and returns of a function according to the type-to-widget mapping defined in a theme, e.g., bool to a checkbox. Consequently, an existing Python function can be turned into a GUI app without any code changes. As a transcompiler, Funix allows type-to-widget mappings to be defined between any Python type and any React component and its props, liberating Python developers to the frontend world without needing to know JavaScript/TypeScript. Funix further leverages features in Python or its ecosystem for building apps in a more Pythonic, intuitive, and effortless manner. With Funix, a developer can <strong>make it (a functional app) before they (competitors) fake it (in Figma or on a napkin)</strong>.</p>
 <p><strong>Keywords</strong>: type hints, docstrings, transcompiler, frontend development</p>
   </div>
-<ol start="3">
+<ol start="5">
 <li><strong>A review in the core technologies of 5G: device-to-device communication, multi-access edge computing and network function virtualization</strong><br>
 <strong>Ruixuan Tu</strong>*, Ruxun Xiang*, Yang Xu, Yihan Mei<br>
 <em>International Journal of Communications, Network and System Sciences, 2019</em><br>
@@ -92,24 +110,7 @@ Forrest Sheng Bao, Mike Qi, <strong>Ruixuan Tu</strong>, Erana Wan<br>
 <p>  5G is a new generation of mobile networking that aims to achieve unparalleled speed and performance. To accomplish this, three technologies, Device-to-Device communication (D2D), multi-access edge computing (MEC) and network function virtualization (NFV) with ClickOS, have been a significant part of 5G, and this paper mainly discusses them. D2D enables direct communication between devices without the relay of base station. In 5G, a two-tier cellular network composed of traditional cellular network system and D2D is an efficient method for realizing high-speed communication. MEC unloads work from end devices and clouds platforms to widespread nodes, and connects the nodes together with outside devices and third-party providers, in order to diminish the overloading effect on any device caused by enormous applications and improve users’ quality of experience (QoE). There is also a NFV method in order to fulfill the 5G requirements. In this part, an optimized virtual machine for middle-boxes named ClickOS is introduced, and it is evaluated in several aspects. Some middle boxes are being implemented in the ClickOS and proved to have outstanding performances.</p>
   </div>
 <h3 id="プレプリント">プレプリント </h3>
-<ol>
-<li><strong>Is Semantic Chunking Worth the Computational Cost?</strong><br>
-Renyi Qu, <strong>Ruixuan Tu</strong>, Forrest Sheng Bao<br>
-<em>arXiv:2410.13070</em><br>
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#rag-abstract" aria-expanded="false" aria-controls="rag-abstract">Abstract</button> [<a href="https://arxiv.org/abs/2410.13070">arXiv</a>] [<a href="https://arxiv.org/pdf/2410.13070">PDF</a>]</li>
-</ol>
-  <div class="collapse" id="rag-abstract">
-<p>  Recent advances in Retrieval-Augmented Generation (RAG) systems have popularized <strong>semantic chunking</strong>, which aims to improve retrieval performance by dividing documents into semantically coherent segments. Despite its growing adoption, the actual benefits over simpler <strong>fixed-size chunking</strong>, where documents are split into consecutive, fixed-size segments, remain unclear. This study systematically evaluates the effectiveness of semantic chunking using three common retrieval-related tasks: document retrieval, evidence retrieval, and retrieval-based answer generation. The results show that the computational costs associated with semantic chunking are not justified by consistent performance gains. These findings challenge the previous assumptions about semantic chunking and highlight the need for more efficient chunking strategies in RAG systems.</p>
-  </div>
-<ol start="2">
-<li><strong>FaithBench: A Diverse Hallucination Benchmark for Summarization by Modern LLMs</strong><br>
-Forrest Sheng Bao, Miaoran Li, Renyi Qu, Ge Luo, Erana Wan, Yujia Tang, Weisi Fan, Manveer Singh Tamber, Suleman Kazi, Vivek Sourabh, Mike Qi, <strong>Ruixuan Tu</strong>, Chenyu Xu, Matthew Gonzales, Ofer Mendelevitch, Amin Ahmad<br>
-<em>arXiv:2410.13210</em><br>
-<button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#faithbench-abstract" aria-expanded="false" aria-controls="faithbench-abstract">Abstract</button> [<a href="https://arxiv.org/abs/2410.13210">arXiv</a>] [<a href="https://arxiv.org/pdf/2410.13210">PDF</a>] [<a href="https://github.com/vectara/FaithBench">GitHub Repo</a>]</li>
-</ol>
-  <div class="collapse" id="faithbench-abstract">
-<p>  Summarization is one of the most common tasks performed by large language models (LLMs), especially in applications like Retrieval-Augmented Generation (RAG). However, existing evaluations of hallucinations in LLM-generated summaries, and evaluations of hallucination detection models both suffer from a lack of diversity and recency in the LLM and LLM families considered. This paper introduces FaithBench, a summarization hallucination benchmark comprising challenging hallucinations made by 10 modern LLMs from 8 different families, with ground truth annotations by human experts. “Challenging” here means summaries on which popular, state-of-the-art hallucination detection models, including GPT-4o-as-a-judge, disagreed on. Our results show GPT-4o and GPT-3.5-Turbo produce the least hallucinations. However, even the best hallucination detection models have near 50% accuracies on FaithBench, indicating lots of room for future improvement.</p>
-  </div>
+<p>現時点ではなし</p>
 <h3 id="授業のプロジェクト">授業のプロジェクト </h3>
 <ol>
 <li><strong>WakaGPT: Classical Japanese Poem Generator</strong><br>
